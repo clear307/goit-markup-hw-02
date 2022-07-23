@@ -6,6 +6,19 @@ body {
     list-style: none;
 }
 
+* {
+    color: aqua;
+}
+
+p {
+    color: brown;
+}
+
+
 .heder-link {
     color: blue;
+}
+
+[href] {
+    color: blueviolet;
 }
