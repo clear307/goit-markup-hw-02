@@ -14,7 +14,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-}
+  color: var(--head-color);
+  }
 
 .list {
   list-style: none;
@@ -39,11 +40,11 @@ body {
 }
 
 .color-logo {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 .heder-logo {
-color: #000000;
+color: var(--main-dark-color);
 }
 
 .heder-link:hover,
@@ -87,8 +88,7 @@ color: #000000;
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
+   line-height: 1.36; /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -113,14 +113,30 @@ color: #000000;
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--accent-color);
+    background-color: #188CE8;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 /*-------------- benefits ------------*/
 
-.section-benefits {
-} /*--------- прихований заголовок, що робити? ------------*/
-
+/*-прихований заголовок-*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }"
 
 .benefits-title {
   font-weight: 700;
@@ -128,7 +144,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--head-color);
 }
 
 .benefits-after-title {
@@ -146,10 +161,6 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--head-color);
-}
-
-.aktiviti-list {
 }
 
 
@@ -164,7 +175,6 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--head-color);
 }
 
 .team-people {
@@ -173,7 +183,6 @@ font-size: 16px;
 line-height: 1.9;/* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--head-color);
 }
 .team-specialist {
     font-size: 16px;
@@ -181,6 +190,11 @@ line-height: 1.9; /* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-color);
+}
+
+
+.team-item {
+    background-color: var(--main-light-color);
 }
 
 /*-------------------footer--------------------*/
@@ -238,3 +252,21 @@ color: rgba(255, 255, 255, 0.6);
 
 
 
+/*-------------------portfolio--------------------*/
+
+.batton-portfolio, 
+.portfolio-gallery {
+    
+}
+
+.batton-item {
+background-color: var(--main-light-color);
+}
+
+.portfolio-title {
+
+}
+
+.portfolio-after-title {
+
+}
