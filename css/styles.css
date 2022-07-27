@@ -1,21 +1,21 @@
 :root {
-    --head-color: #212121; /*колір заголовків і навігації*/
-    --text-color: #757575; /*колір вторинного тексту*/
-    --accent-color: #2196F3; /*колір акцентів, частини логотипу, фону кнопок*/
-    --background-color: #2F303A; /*головний колір підкладки*/
-    --main-light-color: #FFFFFF; /*білий колір*/
-    --main-dark-color: #000000; /*чорний колір*/
-    --secondary-bgr-color: #F5F4FA; /*другорядний колір підкладки*/
-    --border-color: #EEEEEE; /*колір рамок на картинках*/
-    --secondary-border-color: #ECECEC; /*другорядний колір рамки*/
-    --block-margin: 30px; /*стандартні відступи між блоками*/
-    --section-margin: 94px; /*стандартні відступи між секціями*/
+  --head-color: #212121; /*колір заголовків і навігації*/
+  --text-color: #757575; /*колір вторинного тексту*/
+  --accent-color: #2196f3; /*колір акцентів, частини логотипу, фону кнопок*/
+  --background-color: #2f303a; /*головний колір підкладки*/
+  --main-light-color: #ffffff; /*білий колір*/
+  --main-dark-color: #000000; /*чорний колір*/
+  --secondary-bgr-color: #f5f4fa; /*другорядний колір підкладки*/
+  --border-color: #eeeeee; /*колір рамок на картинках*/
+  --secondary-border-color: #ececec; /*другорядний колір рамки*/
+  --block-margin: 30px; /*стандартні відступи між блоками*/
+  --section-margin: 94px; /*стандартні відступи між секціями*/
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--head-color);
-  }
+}
 
 .list {
   list-style: none;
@@ -28,23 +28,23 @@ body {
 /*------ Шапка сторінки ------*/
 
 .heder {
-    background-color: var(--main-light-color);
+  background-color: var(--main-light-color);
 }
 
 .logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19; /* identical to box height */
-    letter-spacing: 0.03em;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19; /* identical to box height */
+  letter-spacing: 0.03em;
 }
 
 .color-logo {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .heder-logo {
-color: var(--main-dark-color);
+  color: var(--main-dark-color);
 }
 
 .heder-link:hover,
@@ -59,12 +59,12 @@ color: var(--main-dark-color);
 
 .heder-tel:hover,
 .heder-tel:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .heder-link-studia,
 .heder-link-portfolio {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .heder-link {
@@ -101,117 +101,114 @@ color: var(--main-dark-color);
 }
 
 .hero-btn {
-  font-family: inherit
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.89; /* identical to box height, or 188% */
-    display: flex;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.89; /* identical to box height, or 188% */
+  display: flex;
   align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--main-light-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-light-color);
 }
 
 .hero-btn {
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    background-color: #2196F3;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #2196f3;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #188CE8;
+  background-color: #188ce8;
 }
-
 
 /*-------------- benefits ------------*/
 
 /*-прихований заголовок-*/
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .benefits-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .benefits-after-title {
-    font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 /*---------------- aktiviti -----------------*/
 
 .aktiviti-title {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
 
 /*------------------- team --------------------*/
 
 .section-team {
-    background-color: var(--secondary-bgr-color);
+  background-color: var(--secondary-bgr-color);
 }
 .team-title {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-people {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.9;/* identical to box height */
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9; /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-specialist {
-    font-size: 16px;
-line-height: 1.9; /* identical to box height */
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9; /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
-
 .team-item {
-    background-color: var(--main-light-color);
+  background-color: var(--main-light-color);
 }
 
 /*-------------------footer--------------------*/
 
 .footer {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .footer-logo {
-    color: #FFFFFF;
-    }
+  color: #ffffff;
+}
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .footer-address:hover,
@@ -230,71 +227,64 @@ color: var(--text-color);
 }
 
 .footer-address {
-    font-size: 14px;
-line-height: 1.71; /* or 171% */
-letter-spacing: 0.03em;
-color: var(--main-light-color);
+  font-size: 14px;
+  line-height: 1.71; /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--main-light-color);
 }
 
 .footer-email {
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.71; /* or 171% */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71; /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
-    font-size: 14px;
-    line-height: 1.71; /* or 171% */
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71; /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-
-
-
 
 /*-------------------portfolio--------------------*/
 
-
-
 .portfolio-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-   line-height: 1.62; /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--head-color)
-    background-color: #F5F4FA;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62; /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--head-color);
+  background-color: var(--secondary-bgr-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: var(--main-light-color);
-    background-color: var(--accent-color);
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-gallery {
-    background-color: var(--secondary-bgr-color);
+  background-color: var(--secondary-bgr-color);
 }
 
 .portfolio-list {
-background-color: var(--main-light-color);
+  background-color: var(--main-light-color);
 }
 
 .portfolio-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.00; /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2; /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
 }
 
 .portfolio-after-title {
-    font-size: 16px;
-line-height: 1.88;/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88; /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
-
