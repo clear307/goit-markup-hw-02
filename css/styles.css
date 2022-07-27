@@ -62,7 +62,7 @@ color: var(--main-dark-color);
   color: var(--accent-color)
 }
 
-.heder-link-studia
+.heder-link-studia,
 .heder-link-portfolio {
     color: var(--accent-color);
 }
@@ -93,7 +93,7 @@ color: var(--main-dark-color);
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-   line-height: 1.36; /* or 136% */
+  line-height: 1.36; /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -113,6 +113,9 @@ color: var(--main-dark-color);
 }
 
 .hero-btn {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
     background-color: #2196F3;
 }
 
@@ -121,11 +124,6 @@ color: var(--main-dark-color);
     background-color: #188CE8;
 }
 
-.btn {
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
 
 /*-------------- benefits ------------*/
 
@@ -141,14 +139,14 @@ color: var(--main-dark-color);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }"
+}
 
 .benefits-title {
-  font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .benefits-after-title {
@@ -260,32 +258,26 @@ color: rgba(255, 255, 255, 0.6);
 /*-------------------portfolio--------------------*/
 
 
-.portfolio-btn {
- font-family: inherit
- font-weight: 500;
- font-size: 16px;
- line-height: 1.62; /* identical to box height, or 162% */
- text-align: center;
- letter-spacing: 0.03em;
- color: var(--head-color)
-}
 
 .portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+   line-height: 1.62; /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--head-color)
     background-color: #F5F4FA;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--accent-color)
-}
-
-.portfolio-btn:hover
-.portfolio-btn:focus {
     color: var(--main-light-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-gallery {
-    background-color: var(--secondary-bgr-color)
+    background-color: var(--secondary-bgr-color);
 }
 
 .portfolio-list {
