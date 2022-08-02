@@ -62,10 +62,14 @@ body {
   color: var(--accent-color);
 }
 
-.heder-link-studia,
-.heder-link-portfolio {
+/*------------правки дз----------*/
+
+a.heder-studia,
+a.heder-portfolio {
   color: var(--accent-color);
 }
+
+/*------------------------------*/
 
 .heder-link {
   font-weight: 500;
@@ -280,6 +284,7 @@ body {
   font-size: 18px;
   line-height: 2; /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+  color: var(--head-color);
 }
 
 .portfolio-after-title {
